@@ -4,7 +4,6 @@ import yfinance as yf
 from kafka import KafkaProducer
 from datetime import datetime
 
-
 producer = KafkaProducer(
     bootstrap_servers =['127.0.0.1:9092'],
     api_version = (3, 3, 1),
